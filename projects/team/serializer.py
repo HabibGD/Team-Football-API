@@ -1,6 +1,7 @@
 from rest_framework import serializers
 from championship.models import Championship
 from championship.serializer import ChampionSerializer
+from .models import Team
 
 
 class TeamSerializer(serializers.ModelSerializer):
@@ -19,5 +20,5 @@ class TeamSerializer(serializers.ModelSerializer):
     )
 
     class Meta:
-        model= Championship
-        fields = ['id', 'team_name', 'championship', 'championship_id']
+        model= Team
+        fields = ['id', 'name', 'championship', 'championship_id']

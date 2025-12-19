@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'championship',
     'rest_framework',
     'team',
+    'person',
 ]
 
 MIDDLEWARE = [

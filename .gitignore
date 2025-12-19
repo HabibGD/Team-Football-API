@@ -1,0 +1,60 @@
+# ------------------------
+# Environnements virtuels
+# ------------------------
+venv/
+env/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# ------------------------
+# Django
+# ------------------------
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+*.mo
+local_settings.py
+
+# ------------------------
+# IDEs et éditeurs
+# ------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------
+# Système
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# Tests et coverage
+# ------------------------
+.coverage
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+.cache
+
+# ------------------------
+# Fichiers secrets / clés
+# ------------------------
+.env
+*.env
+
+# ------------------------
+# Node (si tu utilises frontend avec Django)
+# ------------------------
+node_modules/
+dist/
+build/
